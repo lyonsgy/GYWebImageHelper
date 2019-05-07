@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B071595228162AE00DCF3D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B071594228162AE00DCF3D2 /* AppDelegate.m */; };
+		2B07159D228162B000DCF3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B07159C228162B000DCF3D2 /* Assets.xcassets */; };
+		2B0715A0228162B000DCF3D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07159E228162B000DCF3D2 /* LaunchScreen.storyboard */; };
+		2B0715A3228162B000DCF3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715A2228162B000DCF3D2 /* main.m */; };
+		2B0715AD228162B100DCF3D2 /* GYWebImageHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715AC228162B100DCF3D2 /* GYWebImageHelperTests.m */; };
+		2B0715B8228162B100DCF3D2 /* GYWebImageHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715B7228162B100DCF3D2 /* GYWebImageHelperUITests.m */; };
+		2B0715CB2281641200DCF3D2 /* GYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715C52281641100DCF3D2 /* GYViewController.m */; };
+		2B0715CC2281641200DCF3D2 /* GYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0715C72281641200DCF3D2 /* GYViewController.xib */; };
+		2B0715CD2281641200DCF3D2 /* GYDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715C82281641200DCF3D2 /* GYDetailViewController.m */; };
+		2B0715CE2281641200DCF3D2 /* GYDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B0715C92281641200DCF3D2 /* GYDetailViewController.xib */; };
+		2B0715DA2281642800DCF3D2 /* UIImage+GYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715D42281642800DCF3D2 /* UIImage+GYExtension.m */; };
+		2B0715DB2281642800DCF3D2 /* GYSectorProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715D52281642800DCF3D2 /* GYSectorProgressView.m */; };
+		2B0715DC2281642800DCF3D2 /* GYCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715D72281642800DCF3D2 /* GYCircleProgressView.m */; };
+		2B0715DD2281642800DCF3D2 /* GYCircleLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715D82281642800DCF3D2 /* GYCircleLoadingView.m */; };
+		2B0715DE2281642800DCF3D2 /* UIImageView+GYProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0715D92281642800DCF3D2 /* UIImageView+GYProgressView.m */; };
+		37B7E4146B497E86BFA4D24E /* libPods-GYWebImageHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2CE8D0DD7F3A89F6AF0DC41 /* libPods-GYWebImageHelper.a */; };
+		5F92E8EA499CF8C123F01B03 /* libPods-GYWebImageHelperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D79253DA35EAF20177D4B4 /* libPods-GYWebImageHelperTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B0715A9228162B100DCF3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B071588228162AE00DCF3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B07158F228162AE00DCF3D2;
+			remoteInfo = GYWebImageHelper;
+		};
+		2B0715B4228162B100DCF3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B071588228162AE00DCF3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B07158F228162AE00DCF3D2;
+			remoteInfo = GYWebImageHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B071590228162AE00DCF3D2 /* GYWebImageHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYWebImageHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B071593228162AE00DCF3D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B071594228162AE00DCF3D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B07159C228162B000DCF3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B07159F228162B000DCF3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B0715A1228162B000DCF3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0715A2228162B000DCF3D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B0715A8228162B100DCF3D2 /* GYWebImageHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYWebImageHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0715AC228162B100DCF3D2 /* GYWebImageHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYWebImageHelperTests.m; sourceTree = "<group>"; };
+		2B0715AE228162B100DCF3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0715B3228162B100DCF3D2 /* GYWebImageHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYWebImageHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0715B7228162B100DCF3D2 /* GYWebImageHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYWebImageHelperUITests.m; sourceTree = "<group>"; };
+		2B0715B9228162B100DCF3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0715C52281641100DCF3D2 /* GYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYViewController.m; sourceTree = "<group>"; };
+		2B0715C62281641200DCF3D2 /* GYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYViewController.h; sourceTree = "<group>"; };
+		2B0715C72281641200DCF3D2 /* GYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYViewController.xib; sourceTree = "<group>"; };
+		2B0715C82281641200DCF3D2 /* GYDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYDetailViewController.m; sourceTree = "<group>"; };
+		2B0715C92281641200DCF3D2 /* GYDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GYDetailViewController.xib; sourceTree = "<group>"; };
+		2B0715CA2281641200DCF3D2 /* GYDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYDetailViewController.h; sourceTree = "<group>"; };
+		2B0715D02281642800DCF3D2 /* GYSectorProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYSectorProgressView.h; sourceTree = "<group>"; };
+		2B0715D12281642800DCF3D2 /* UIImageView+GYProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GYProgressView.h"; sourceTree = "<group>"; };
+		2B0715D22281642800DCF3D2 /* GYCircleLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCircleLoadingView.h; sourceTree = "<group>"; };
+		2B0715D32281642800DCF3D2 /* GYCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYCircleProgressView.h; sourceTree = "<group>"; };
+		2B0715D42281642800DCF3D2 /* UIImage+GYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GYExtension.m"; sourceTree = "<group>"; };
+		2B0715D52281642800DCF3D2 /* GYSectorProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYSectorProgressView.m; sourceTree = "<group>"; };
+		2B0715D62281642800DCF3D2 /* UIImage+GYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GYExtension.h"; sourceTree = "<group>"; };
+		2B0715D72281642800DCF3D2 /* GYCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCircleProgressView.m; sourceTree = "<group>"; };
+		2B0715D82281642800DCF3D2 /* GYCircleLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYCircleLoadingView.m; sourceTree = "<group>"; };
+		2B0715D92281642800DCF3D2 /* UIImageView+GYProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GYProgressView.m"; sourceTree = "<group>"; };
+		4F5FB149CF954032BA7D8D3E /* Pods-GYWebImageHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYWebImageHelperTests.debug.xcconfig"; path = "Target Support Files/Pods-GYWebImageHelperTests/Pods-GYWebImageHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DC263280B1AE5A04315DD0F /* Pods-GYWebImageHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYWebImageHelper.release.xcconfig"; path = "Target Support Files/Pods-GYWebImageHelper/Pods-GYWebImageHelper.release.xcconfig"; sourceTree = "<group>"; };
+		83E5210B2BF6E8E3B875CCB2 /* Pods-GYWebImageHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYWebImageHelperTests.release.xcconfig"; path = "Target Support Files/Pods-GYWebImageHelperTests/Pods-GYWebImageHelperTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2CE8D0DD7F3A89F6AF0DC41 /* libPods-GYWebImageHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GYWebImageHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AD3C31831C1C83DF8CB1DD /* Pods-GYWebImageHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYWebImageHelper.debug.xcconfig"; path = "Target Support Files/Pods-GYWebImageHelper/Pods-GYWebImageHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D79253DA35EAF20177D4B4 /* libPods-GYWebImageHelperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GYWebImageHelperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B07158D228162AE00DCF3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B7E4146B497E86BFA4D24E /* libPods-GYWebImageHelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0715A5228162B100DCF3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F92E8EA499CF8C123F01B03 /* libPods-GYWebImageHelperTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0715B0228162B100DCF3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B071587228162AE00DCF3D2 = {
+			isa = PBXGroup;
+			children = (
+				2B071592228162AE00DCF3D2 /* GYWebImageHelper */,
+				2B0715AB228162B100DCF3D2 /* GYWebImageHelperTests */,
+				2B0715B6228162B100DCF3D2 /* GYWebImageHelperUITests */,
+				2B071591228162AE00DCF3D2 /* Products */,
+				CEE58D00579533DF2620C038 /* Pods */,
+				A3449E206D6696ED03AE82D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B071591228162AE00DCF3D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B071590228162AE00DCF3D2 /* GYWebImageHelper.app */,
+				2B0715A8228162B100DCF3D2 /* GYWebImageHelperTests.xctest */,
+				2B0715B3228162B100DCF3D2 /* GYWebImageHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B071592228162AE00DCF3D2 /* GYWebImageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2B0715CF2281642800DCF3D2 /* GYWebImageHelper */,
+				2B071593228162AE00DCF3D2 /* AppDelegate.h */,
+				2B071594228162AE00DCF3D2 /* AppDelegate.m */,
+				2B0715C62281641200DCF3D2 /* GYViewController.h */,
+				2B0715C52281641100DCF3D2 /* GYViewController.m */,
+				2B0715C72281641200DCF3D2 /* GYViewController.xib */,
+				2B0715CA2281641200DCF3D2 /* GYDetailViewController.h */,
+				2B0715C82281641200DCF3D2 /* GYDetailViewController.m */,
+				2B0715C92281641200DCF3D2 /* GYDetailViewController.xib */,
+				2B07159C228162B000DCF3D2 /* Assets.xcassets */,
+				2B07159E228162B000DCF3D2 /* LaunchScreen.storyboard */,
+				2B0715A1228162B000DCF3D2 /* Info.plist */,
+				2B0715A2228162B000DCF3D2 /* main.m */,
+			);
+			path = GYWebImageHelper;
+			sourceTree = "<group>";
+		};
+		2B0715AB228162B100DCF3D2 /* GYWebImageHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0715AC228162B100DCF3D2 /* GYWebImageHelperTests.m */,
+				2B0715AE228162B100DCF3D2 /* Info.plist */,
+			);
+			path = GYWebImageHelperTests;
+			sourceTree = "<group>";
+		};
+		2B0715B6228162B100DCF3D2 /* GYWebImageHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B0715B7228162B100DCF3D2 /* GYWebImageHelperUITests.m */,
+				2B0715B9228162B100DCF3D2 /* Info.plist */,
+			);
+			path = GYWebImageHelperUITests;
+			sourceTree = "<group>";
+		};
+		2B0715CF2281642800DCF3D2 /* GYWebImageHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2B0715D12281642800DCF3D2 /* UIImageView+GYProgressView.h */,
+				2B0715D92281642800DCF3D2 /* UIImageView+GYProgressView.m */,
+				2B0715D32281642800DCF3D2 /* GYCircleProgressView.h */,
+				2B0715D72281642800DCF3D2 /* GYCircleProgressView.m */,
+				2B0715D62281642800DCF3D2 /* UIImage+GYExtension.h */,
+				2B0715D42281642800DCF3D2 /* UIImage+GYExtension.m */,
+				2B0715D02281642800DCF3D2 /* GYSectorProgressView.h */,
+				2B0715D52281642800DCF3D2 /* GYSectorProgressView.m */,
+				2B0715D22281642800DCF3D2 /* GYCircleLoadingView.h */,
+				2B0715D82281642800DCF3D2 /* GYCircleLoadingView.m */,
+			);
+			path = GYWebImageHelper;
+			sourceTree = "<group>";
+		};
+		A3449E206D6696ED03AE82D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2CE8D0DD7F3A89F6AF0DC41 /* libPods-GYWebImageHelper.a */,
+				D3D79253DA35EAF20177D4B4 /* libPods-GYWebImageHelperTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE58D00579533DF2620C038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3AD3C31831C1C83DF8CB1DD /* Pods-GYWebImageHelper.debug.xcconfig */,
+				6DC263280B1AE5A04315DD0F /* Pods-GYWebImageHelper.release.xcconfig */,
+				4F5FB149CF954032BA7D8D3E /* Pods-GYWebImageHelperTests.debug.xcconfig */,
+				83E5210B2BF6E8E3B875CCB2 /* Pods-GYWebImageHelperTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B07158F228162AE00DCF3D2 /* GYWebImageHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0715BC228162B100DCF3D2 /* Build configuration list for PBXNativeTarget "GYWebImageHelper" */;
+			buildPhases = (
+				40ED961BFC1C5318E7E9A4C3 /* [CP] Check Pods Manifest.lock */,
+				2B07158C228162AE00DCF3D2 /* Sources */,
+				2B07158D228162AE00DCF3D2 /* Frameworks */,
+				2B07158E228162AE00DCF3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYWebImageHelper;
+			productName = GYWebImageHelper;
+			productReference = 2B071590228162AE00DCF3D2 /* GYWebImageHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B0715A7228162B100DCF3D2 /* GYWebImageHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0715BF228162B100DCF3D2 /* Build configuration list for PBXNativeTarget "GYWebImageHelperTests" */;
+			buildPhases = (
+				ECFE04E92D737E1F7E73EA1D /* [CP] Check Pods Manifest.lock */,
+				2B0715A4228162B100DCF3D2 /* Sources */,
+				2B0715A5228162B100DCF3D2 /* Frameworks */,
+				2B0715A6228162B100DCF3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0715AA228162B100DCF3D2 /* PBXTargetDependency */,
+			);
+			name = GYWebImageHelperTests;
+			productName = GYWebImageHelperTests;
+			productReference = 2B0715A8228162B100DCF3D2 /* GYWebImageHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B0715B2228162B100DCF3D2 /* GYWebImageHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B0715C2228162B100DCF3D2 /* Build configuration list for PBXNativeTarget "GYWebImageHelperUITests" */;
+			buildPhases = (
+				2B0715AF228162B100DCF3D2 /* Sources */,
+				2B0715B0228162B100DCF3D2 /* Frameworks */,
+				2B0715B1228162B100DCF3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0715B5228162B100DCF3D2 /* PBXTargetDependency */,
+			);
+			name = GYWebImageHelperUITests;
+			productName = GYWebImageHelperUITests;
+			productReference = 2B0715B3228162B100DCF3D2 /* GYWebImageHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B071588228162AE00DCF3D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lyons;
+				TargetAttributes = {
+					2B07158F228162AE00DCF3D2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					2B0715A7228162B100DCF3D2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2B07158F228162AE00DCF3D2;
+					};
+					2B0715B2228162B100DCF3D2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2B07158F228162AE00DCF3D2;
+					};
+				};
+			};
+			buildConfigurationList = 2B07158B228162AE00DCF3D2 /* Build configuration list for PBXProject "GYWebImageHelper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B071587228162AE00DCF3D2;
+			productRefGroup = 2B071591228162AE00DCF3D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B07158F228162AE00DCF3D2 /* GYWebImageHelper */,
+				2B0715A7228162B100DCF3D2 /* GYWebImageHelperTests */,
+				2B0715B2228162B100DCF3D2 /* GYWebImageHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B07158E228162AE00DCF3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0715A0228162B000DCF3D2 /* LaunchScreen.storyboard in Resources */,
+				2B0715CE2281641200DCF3D2 /* GYDetailViewController.xib in Resources */,
+				2B07159D228162B000DCF3D2 /* Assets.xcassets in Resources */,
+				2B0715CC2281641200DCF3D2 /* GYViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0715A6228162B100DCF3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0715B1228162B100DCF3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40ED961BFC1C5318E7E9A4C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GYWebImageHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECFE04E92D737E1F7E73EA1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GYWebImageHelperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B07158C228162AE00DCF3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0715DE2281642800DCF3D2 /* UIImageView+GYProgressView.m in Sources */,
+				2B0715A3228162B000DCF3D2 /* main.m in Sources */,
+				2B0715CD2281641200DCF3D2 /* GYDetailViewController.m in Sources */,
+				2B0715CB2281641200DCF3D2 /* GYViewController.m in Sources */,
+				2B0715DD2281642800DCF3D2 /* GYCircleLoadingView.m in Sources */,
+				2B0715DC2281642800DCF3D2 /* GYCircleProgressView.m in Sources */,
+				2B071595228162AE00DCF3D2 /* AppDelegate.m in Sources */,
+				2B0715DA2281642800DCF3D2 /* UIImage+GYExtension.m in Sources */,
+				2B0715DB2281642800DCF3D2 /* GYSectorProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0715A4228162B100DCF3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0715AD228162B100DCF3D2 /* GYWebImageHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0715AF228162B100DCF3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0715B8228162B100DCF3D2 /* GYWebImageHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B0715AA228162B100DCF3D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B07158F228162AE00DCF3D2 /* GYWebImageHelper */;
+			targetProxy = 2B0715A9228162B100DCF3D2 /* PBXContainerItemProxy */;
+		};
+		2B0715B5228162B100DCF3D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B07158F228162AE00DCF3D2 /* GYWebImageHelper */;
+			targetProxy = 2B0715B4228162B100DCF3D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B07159E228162B000DCF3D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B07159F228162B000DCF3D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B0715BA228162B100DCF3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B0715BB228162B100DCF3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B0715BD228162B100DCF3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AD3C31831C1C83DF8CB1DD /* Pods-GYWebImageHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9664G3BP7Z;
+				INFOPLIST_FILE = GYWebImageHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.GYWebImageHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B0715BE228162B100DCF3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DC263280B1AE5A04315DD0F /* Pods-GYWebImageHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9664G3BP7Z;
+				INFOPLIST_FILE = GYWebImageHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.GYWebImageHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B0715C0228162B100DCF3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5FB149CF954032BA7D8D3E /* Pods-GYWebImageHelperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9664G3BP7Z;
+				INFOPLIST_FILE = GYWebImageHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.GYWebImageHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYWebImageHelper.app/GYWebImageHelper";
+			};
+			name = Debug;
+		};
+		2B0715C1228162B100DCF3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E5210B2BF6E8E3B875CCB2 /* Pods-GYWebImageHelperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9664G3BP7Z;
+				INFOPLIST_FILE = GYWebImageHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.GYWebImageHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYWebImageHelper.app/GYWebImageHelper";
+			};
+			name = Release;
+		};
+		2B0715C3228162B100DCF3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9664G3BP7Z;
+				INFOPLIST_FILE = GYWebImageHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.GYWebImageHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GYWebImageHelper;
+			};
+			name = Debug;
+		};
+		2B0715C4228162B100DCF3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9664G3BP7Z;
+				INFOPLIST_FILE = GYWebImageHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyons.GYWebImageHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GYWebImageHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B07158B228162AE00DCF3D2 /* Build configuration list for PBXProject "GYWebImageHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0715BA228162B100DCF3D2 /* Debug */,
+				2B0715BB228162B100DCF3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0715BC228162B100DCF3D2 /* Build configuration list for PBXNativeTarget "GYWebImageHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0715BD228162B100DCF3D2 /* Debug */,
+				2B0715BE228162B100DCF3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0715BF228162B100DCF3D2 /* Build configuration list for PBXNativeTarget "GYWebImageHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0715C0228162B100DCF3D2 /* Debug */,
+				2B0715C1228162B100DCF3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0715C2228162B100DCF3D2 /* Build configuration list for PBXNativeTarget "GYWebImageHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B0715C3228162B100DCF3D2 /* Debug */,
+				2B0715C4228162B100DCF3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B071588228162AE00DCF3D2 /* Project object */;
+}

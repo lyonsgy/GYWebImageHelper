@@ -1,0 +1,8 @@
+platform :ios,’9.0’
+target 'GYWebImageHelper' do
+
+pod 'SDWebImage'
+end
+
+target 'GYWebImageHelperTests' do
+end
